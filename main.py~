@@ -7,10 +7,10 @@ class Animal:
         self.age = age
 
     def make_sound(self):
-        raise NotImplementedError("Метод make_sound реализован в подклассах.")
+        raise NotImplementedError("Метод make_sound должен быть реализован в подклассах.")
 
     def eat(self):
-        raise NotImplementedError("Метод eat реализован в подклассах.")
+        raise NotImplementedError("Метод eat должен быть реализован в подклассах.")
 
 
 class Bird(Animal):
